@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-[Archivo] box-border">
+    <header class="bg-black w-full">
+      <div
+        class="container mx-auto py-6 px-4 max-w-7xl text-white overflow-hidden"
+      >
+        <div class="flex justify-between items-center bg-green-40">
+          <!--------------------------------- LOGO ------------------------------------>
+          <div class="flex items-center gap-1">
+            <img src="images/logo.png" alt="" class="lg:w-9 w-12" />
+            <a href="" class="text-2xl md:text-4xl font-medium">JamBaze</a>
+          </div>
+
+          <!------------------------------ NAVIGATION LINKS -------------------------->
+          <nav class="flex items-center gap-8 ml-auto">
+            <ul class="xl:flex items-center justify-center gap-6 hidden">
+              <li class="flex items-center gap-1 justify-center">
+                <a href="" class="text-base">Music</a>
+                <img src="images/chevron-down.png" alt="" class="block" />
+              </li>
+              <li><a href="" class="text-lg">Video</a></li>
+              <li><a href="" class="text-lg">Entertainment</a></li>
+              <li><a href="" class="text-lg">News</a></li>
+              <li><a href="" class="text-lg">Artists</a></li>
+              <li class="flex items-center gap-1 justify-center text-lg">
+                <a href="" class="text-base">More</a>
+                <img src="images/chevron-down.png" alt="" class="block" />
+              </li>
+            </ul>
+            <div class="hidden xl:block">
+              <img src="images/search.png" alt="" class="w-[18px] h-[18px]" />
+            </div>
+            <button
+              class="hidden xl:flex items-center px-6 py-3 border gap-1 rounded-sm text-base justify-center font-archivo"
+            >
+              Subscribe <img src="images/chevron-down.png" alt="" />
+            </button>
+
+            <!-- MOBILE MENU BAR -->
+          </nav>
+          <div class="flex items-center gap-6">
+                        <img src="images/search.png" alt="" class="w-[18px] h-[18px] xl:hidden" />
+            <img src="images/menu-bar.png" alt="" class="xl:hidden " />
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENTS -->
+    <main class="container mx-auto pt-12 px-4 lg:px-8 max-w-7xl">
+      <!-- HERO HEADING -->
+      <h1 class="font-bold text-5xl lg:text-7xl mb-12 lg:mb-14 tracking-tight">
+        Hot stories
+      </h1>
+
+      <!-------------------------------------------------- HERO SECTION ---------------------------------------------------------->
+      <section
+        class="w-full grid grid-cols-1 xl:grid-cols-3 gap-16 lg:gap-8 mb-28"
+      >
+        <!------------------------- LEFT HERO -------------------------->
+        <div class="relative col-span-2">
+          <div class="col-span-2 h-full">
+            <img
+              src="images/kanye.png"
+              alt=""
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div
+            class="absolute left-0 bottom-0 right-0 px-4 py-4 xl:py-6 bg-black/50 text-white"
+          >
+            <h2
+              class="text-[17px] lg:text-[42px] font-semibold text-white max-w-4xl lg:leading-[3rem] pt-4 lg:pt-3"
+            >
+              <span
+                class="inline-block absolute top-0 left-4 bg-[#F44C1C] px-4 lg:px-8 py-2 text-xs lg:text-sm -mt-3"
+                >TOP STORY</span
+              >
+              Kanye West suspected of attacking man who allegedly sexually
+              assaulted his wife
+            </h2>
+          </div>
+        </div>
+
+        <!------------------------- RIGHT HERO------------------------- -->
+        <div>
+          <div class="flex gap-4 py-4 px-3 border-t border-b border-gray-300">
+            <img
+              src="images/portable.png"
+              alt=""
+              class="w-[130px] lg:w-[160px] h-[86px] lg:h-[80px] mt-3 rounded-md"
+            />
+            <div>
+              <h2
+                class="text-lg p-0 font-semibold w-[158px] lg:w-[258px] mb-2 leading-[1.5rem] lg:leading-[1.8rem]"
+              >
+                Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+              </h2>
+              <div class="flex items-center gap-3 mb-2">
+                <img src="images/clock-3.png" alt="" />
+                <p class="text-sm text-[#707070]">6mins ago</p>
+              </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a>
+              
+            </div>
+          </div>
+
+          <div class="flex gap-4 py-4 px-3 border-b border-gray-300">
+            <img
+              src="images/beauty.png"
+              alt=""
+              class="w-[130px] lg:w-[160px] h-[86px] lg:h-[80px] mt-3 rounded-md"
+            />
+            <div>
+              <h2
+                class="text-lg p-0 font-semibold w-[158px] lg:w-[258px] mb-2 leading-[1.5rem] lg:leading-[1.8rem]"
+              >
+                Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+              </h2>
+              <div class="flex items-center gap-3 mb-2">
+                <img src="images/clock-3.png" alt="" />
+                <p class="text-sm text-[#707070]">6mins ago</p>
+              </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a >
+              >
+            </div>
+          </div>
+
+          <div class="flex gap-4 py-4 px-3 border-b border-gray-300">
+            <img
+              src="images/paris hilton.png"
+              alt=""
+              class="w-[130px] lg:w-[156px] xl:w-[120px] h-[86px] lg:h-[80px] mt-3 rounded-md"
+            />
+            <div>
+              <h2
+                class="text-lg p-0 font-semibold w-[158px] lg:w-[258px] mb-2 leading-[1.5rem] lg:leading-[1.8rem]"
+              >
+                Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+              </h2>
+              <div class="flex items-center gap-3 mb-2">
+                <img src="images/clock-3.png" alt="" />
+                <p class="text-sm text-[#707070]">6mins ago</p>
+              </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a>
+            </div>
+          </div>
+
+          <div class="flex gap-4 py-4 px-3 border-b border-gray-300">
+            <img
+              src="images/girls.png"
+              alt=""
+              class="w-[130px] lg:w-[156px] xl:w-[120px] h-[86px] lg:h-[80px] mt-3 rounded-md"
+            />
+            <div>
+              <h2
+                class="text-lg p-0 font-semibold w-[158px] lg:w-[258px] mb-2 leading-[1.5rem] lg:leading-[1.8rem]"
+              >
+                Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+              </h2>
+              <div class="flex items-center gap-3 mb-2">
+                <img src="images/clock-3.png" alt="" />
+                <p class="text-sm text-[#707070]">6mins ago</p>
+              </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------------------- TRENDING MUSIC --------------------------------------------------------->
+      <section>
+        <!-- Trending music 1st section -->
+        <h2 class="text-2xl font-bold mb-4">Trending Music</h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 md:gap-12 mb-8"
+        >
+          <div>
+            <img
+              src="images/Kanye cover.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">Graduation</p>
+              <p class="font-normal">Hip Hop</p>
+              <p class="font-semibold">Kanye West</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="images/Igor.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">IGOR</p>
+              <p class="font-normal">Hip hop</p>
+              <p class="font-semibold">Tyler the creator</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="images/phyno.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">Deal with it</p>
+              <p class="font-normal">Afrobeats</p>
+              <p class="font-semibold">Pyhno</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="images/burner boy cover.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">Outside</p>
+              <p class="font-normal">Afrobeats</p>
+              <p class="font-semibold">Burna Boy</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="images/davido cover.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">Timeless</p>
+              <p class="font-normal">Afrobeats</p>
+              <p class="font-semibold">Davido</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="images/DS4VER.png"
+              alt=""
+              class="rounded-sm h-[180px] w-full"
+            />
+            <div class="bg-[#F5F5F5] p-3">
+              <p class="font-medium">DS4EVR</p>
+              <p class="font-normal">Hip Hop</p>
+              <p class="font-semibold">Gunna</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trending music 2nd section -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 my-14">
+          <!-- 1st grid item-->
+          <div>
+            <div
+              class="flex justify-between border-t-2 border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song1.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song2.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song3.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song5.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd grid item -->
+          <div>
+            <div
+              class="flex justify-between lg:border-t-2 border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song6.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song7.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song8.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song9.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between border-b-2 py-4 px-3 border-gray-300"
+            >
+              <div class="flex gap-3 items-start">
+                <img src="images/song10.png" alt="" class="h-16 w-16" />
+                <div>
+                  <p class="font-medium p-0 m-0">Graduation</p>
+                  <p class="font-normal p-0 m-0">Hip Hop</p>
+                  <p class="font-semibold p-0 m-0">Kanye West</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-6">
+                <p class="text-gray-400">03:59</p>
+                <img src="images/heart.png" alt="" />
+                <button
+                  class="hidden bg-[#F44C1C] text-white py-2 px-4 lg:inline-block rounded-3xl text-base font-medium"
+                >
+                  play
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------- ADVERT SECTION ---------------------------------------------------------->
+      <section class="my-20 lg:my-44">
+        <img src="images/Advert.png" alt="" class="w-full object-cover" />
+      </section>
+
+      <!------------------------------------------------ POST SECTION ------------------------------------------------------------->
+      <section
+        class="w-full grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-8 mb-28"
+      >
+        <!--------------------------------------------- LEFT POST SECTION --------------------------------------------------------->
+        <div class="lg:col-span-2">
+          <div class="w-fll md:w-[300px] border-gray-300 border-b">
+            <a href="" class="inline-block py-3 px-6 border-orange-600 border-b"
+              >Latest Posts</a
+            >
+            <a href="" class="inline-block py-3 px-6 text-gray-400"
+              >Trending posts</a
+            >
+          </div>
+
+          <div class="mt-8">
+            <div class="flex py-4 px-3 gap-4 border-b border-gray-300 border-t">
+              <img
+                src="images/portable.png"
+                alt=""
+                class="w-[130px] h-[86px] rounded-md "
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >News</a
+                >
+              </div>
+            </div>
+
+            <div class="flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/beauty.png"
+                alt=""
+                class="w-[131px] rounded-md object-contain" 
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-lg "
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img
+                src="images/paris hilton.png"
+                alt=""
+                class="w-[131px] h-[86px] rounded-md"
+              />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+
+            <div class="hidden md:flex py-4 px-3 gap-4 border-b border-gray-300">
+              <img src="images/girls.png" alt="" class="w-[131px] h-[86px] rounded-md" />
+              <div class="flex flex-col gap-2 px-3">
+                <h2 class="font-bold">
+                  Prosper Germoh – Your Dominion (GOSPEL ALBUM)
+                </h2>
+                <div class="flex gap-2 items-center">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-gray-400 text-base">6mins ago</p>
+                </div>
+
+                <a
+                  href=""
+                  class="font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Entertainment</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-12">
+            <div
+              class="hidden md:flex gap-2 items-center border border-gray-300 py-3 px-6 rounded-md">
+              <p><a href="" class="font-medium text-base">View More Post</a></p>
+              <img src="images/arrow-right.png" alt="" />
+            </div>
+            <div class="flex justify-between md:hidden  w-full">
+              <div class="flex items-center gap-2">
+                <p class="text-sm font-medium">Rows per page</p>
+                <select name="" id="" class="py-2 px-3 border border-gray-300 rounded-lg text-sm">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                </select>
+              </div>
+             <div class="flex gap-1"> 
+              <button  class="py-2 px-3 border border-gray-300 rounded-lg text-sm font-bold text-gray-400"><<</button>
+              <button class="py-2 px-3 border border-gray-300 rounded-lg text-sm font-bold text-gray-400"><</button>
+              <button class="py-2 px-3 border border-gray-300 rounded-lg text-sm font-bold">></button>
+              <button class="py-2 px-3 border border-gray-300 rounded-lg text-sm font-bold">>></button></div>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------------------- RIGHT POST SECTION ------------------------------------------------------->
+        <div>
+          <div class="bg-[#F8F3E5] p-6 lg:px-4 xl:p-6 rounded-xl mb-14">
+            <h2 class="font-bold text-[22px] md:text-lg xl:text-2xl mb-3">
+              SEARCH FOR POST/MUSIC
+            </h2>
+              <div
+              class="flex items-center justify-between  bg-white py-[6px] lg:px-[6px]  pr-[6px] pl-3 xl:pr-[6px]  xl:pl-3 border border-gray-300 "
+            >
+              <div class="flex items-center gap-1 w-fit">
+                <img src="images/search (2).png" alt="" />
+                <input
+                  type="text"
+                  placeholder="Search for music and post"
+                  class="text-xs xl:text-sm text-[#71717A] outline-none w-36 xl:w-40"
+                />
+              </div>
+              <button
+                class="py-3 px-6 lg:px-3 xl:px-6 bg-[#F44C1C] text-white text-sm rounded-sm"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+
+          <!-- Trending topics -->
+          <div class="mb-11">
+            <h2 class="font-bold text-2xl mb-4">TRENDING TOPICS</h2>
+            <div class="flex flex-col gap-2">
+              <div
+                class="py-[6px] px-3 border border-gray-300 w-fit rounded-sm"
+              >
+                <p class="text-base">
+                  <span class="text-gray-300 text-[18px] mr-1">#</span> Music
+                </p>
+              </div>
+
+              <div
+                class="py-[6px] px-3 border border-gray-300 w-fit rounded-sm"
+              >
+                <p class="text-base">
+                  <span class="text-gray-300 text-[18px] mr-1">#</span>
+                  Entertainment
+                </p>
+              </div>
+
+              <div
+                class="py-[6px] px-3 border border-gray-300 w-fit rounded-sm"
+              >
+                <p class="text-base">
+                  <span class="text-gray-300 text-[18px] mr-1">#</span>
+                  Movies
+                </p>
+              </div>
+
+              <div
+                class="py-[6px] px-3 border border-gray-300 w-fit rounded-sm"
+              >
+                <p class="text-base">
+                  <span class="text-gray-300 text-[18px] mr-1">#</span>
+                  Gossip
+                </p>
+              </div>
+
+              <div
+                class="py-[6px] px-3 border border-gray-300 w-fit rounded-sm"
+              >
+                <p class="text-base">
+                  <span class="text-gray-300 text-[18px] mr-1">#</span>
+                  Live events
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Advert -->
+          <div class="mb-10">
+            <img
+              src="images/advert2.png"
+              alt=""
+              class="h-[342px] lg:h-[480px] w-full"
+            />
+          </div>
+
+          <!-- Trending songs  -->
+          <div>
+            <h2 class="font-bold text-2xl mb-8">TRENDING SONGS RIGHT NOW</h2>
+            <div
+              class="flex gap-12 py-4 px-3 border-t border-b border-gray-300"
+            >
+              <div class="flex items-center gap-2">
+                <p
+                  class="border border-[#F44C1C] text-lg  text-[#707070]  rounded-full py-1 px-[4.5px] w-[24px] h-[25px] flex items-center"
+                >
+                  1
+                </p>
+                <img src="images/song.png" alt="" />
+              </div>
+              <div class="px-3 lg:px-0 xl:px-3">
+                <h2 class="text-base  font-semibold lg:text-sm xl:text-base ">
+                  Ajebo Hustlers Ft. Zlatan & Blaqbonez – DREAMS <br class=" md:hidden">II
+                </h2>
+                <div class="flex items-center gap-2 my-2">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-base text-gray-400">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Music</a
+                >
+              </div>
+            </div>
+
+            <div class="flex gap-10 py-4 px-3 border-b border-gray-300">
+              <div class="flex items-center gap-2">
+                <p
+                  class="border border-[#F44C1C] text-lg text-[#707070]  rounded-full py-1 px-[4.5px] w-[24px] h-[25px] flex items-center"
+                >
+                  2
+                </p>
+                <img src="images/song.png" alt="" />
+              </div>
+              <div class="px-3 lg:px-0 xl:px-3">
+                <h2 class="text-base  font-semibold lg:text-sm xl:text-base ">
+                 Reekado Banks Ft. Seyi Vibez, Del B – Fakosi <br class=" md:hidden">(Remix)
+                </h2>
+                <div class="flex items-center gap-2 my-2">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-base text-gray-400">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Music</a
+                >
+              </div>
+            </div>
+
+            <div class="flex gap-10 py-4 px-3 border-b border-gray-300">
+              <div class="flex items-center gap-2">
+                <p
+                  class="border border-[#F44C1C] text-lg text-[#707070]  rounded-full py-1 px-[4.5px] w-[24px] h-[25px] flex items-center"
+                >
+                  3
+                </p>
+                <img src="images/song.png" alt="" />
+              </div>
+              <div class="px-3 lg:px-0 xl:px-3">
+                <h2 class="text-base  font-semibold lg:text-sm xl:text-base ">
+                  Ajebo Hustlers Ft. Zlatan & Blaqbonez – DREAMS <br class=" md:hidden"> II
+                </h2>
+                <div class="flex items-center gap-2 my-2">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-base text-gray-400">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Music</a
+                >
+              </div>
+            </div>
+
+            <div class="flex gap-10 py-4 px-3 border-b border-gray-300">
+              <div class="flex items-center gap-2">
+                <p
+                  class="border border-[#F44C1C] text-lg text-[#707070]  rounded-full py-1 px-[4.5px] w-[24px] h-[25px] flex items-center"
+                >
+                  4
+                </p>
+                <img src="images/song.png" alt="" />
+              </div>
+              <div class="px-3 lg:px-0 xl:px-3">
+                <h2 class=" text-base  font-semibold lg:text-sm xl:text-base ">
+                  Ajebo Hustlers Ft. Zlatan & Blaqbonez – DREAMS <br class=" md:hidden">II
+                </h2>
+                <div class="flex items-center gap-2 my-2">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-base text-gray-400">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Music</a
+                >
+              </div>
+            </div>
+
+            <div class="flex gap-10 py-4 px-3 border-b border-gray-300">
+              <div class="flex items-center gap-2">
+                <p
+                  class="border border-[#F44C1C] text-lg text-[#707070] rounded-full py-1 px-[4.5px] w-[24px] h-[25px] flex items-center"
+                >
+                  5
+                </p>
+                <img src="images/song.png" alt="" />
+              </div>
+              <div class="px-3 lg:px-0 xl:px-3">
+                <h2 class="text-base  font-semibold lg:text-sm xl:text-base ">
+                  Ajebo Hustlers Ft. Zlatan & Blaqbonez – DREAMS <br class=" md:hidden">II
+                </h2>
+                <div class="flex items-center gap-2 my-2">
+                  <img src="images/clock-3.png" alt="" />
+                  <p class="text-base text-gray-400">6mins ago</p>
+                </div>
+                <a
+                  href=""
+                  class="inline-block font-[300] text-[#F44C1C] w-fit bg-[#F8F3E5] rounded-xl px-3"
+                  >Music</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-10">
+            <div
+              class="flex gap-2 items-center border border-gray-300 py-3 px-6 rounded-md"
+            >
+              <p><a href="" class="font-medium text-base">View More</a></p>
+              <img src="images/arrow-right.png" alt="" />
+            </div>
+          </div>
+
+          <div class="bg-[#F8F3E5] p-6 rounded-xl mt-12">
+            <h2 class="text-2xl font-bold">JamBaze Weekly</h2>
+            <p class="my-4 text-base">
+              Get access to JamBaze New Music <br class=" md:hidden">Friday and curated playlists.
+              <div
+              class="flex items-center justify-between  bg-white py-[6px] pr-[6px] pl-3 border border-gray-300"
+            >
+              <div class="flex items-center gap-2 w-fit">
+                <img src="images/mail.png" alt="" />
+                <input
+                  type="text"
+                  placeholder="Email address"
+                  class="text-xs lg:text-sm text-[#71717A]  w-32 outline-none"
+                />
+              </div>
+              <button
+                class="py-3 px-6 lg:px-4 xl:px-6 bg-[#F44C1C] text-white text-sm rounded-sm"
+              >
+                Search
+              </button>
+            </div>
+            </p>
+          </div>
+
+          <div class="bg-black px-6 py-6 text-white rounded-xl mt-8">
+            <h2 class="font-bold text-2xl ">Follow the <br>conversation on our <br>social media pages</h2>
+            <div class=" flex items-center gap-3 mt-6">
+              <div><img src="images/prime_twitter.png" alt=""></div>
+             <div> <img src="images/instagram.png" alt=""></div>
+              <div><img src="images/facebook.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-----------------------------------------------  ARTIST SECTION ---------------------------------------------------------->
+      <section class="mb-24">
+        <div class="flex justify-between items-center">
+          <h2 class="font-bold text-2xl">Top Artistes</h2>
+          <p><a href="" class="font-medium underline text-lg">See all artist</a></p>
+        </div>
+        
+          <div class=" grid grid-cols-2 lg:grid-cols-6 gap-6 my-6">
+
+            <div class="bg-[#F5F5F5]"><img src="images/kanyee (2).png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Kanye West</p>
+            </div>
+
+              <div class="bg-[#F5F5F5]">
+                <img src="images/Tyler.png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Tyler the Creator</p>
+            </div>
+
+              <div class="bg-[#F5F5F5]">
+              <img src="images/phyno2.png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Phyno</p>
+            </div>
+
+              <div class="bg-[#F5F5F5]">
+              <img src="images/Buner Boyy.png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Burna Boy</p>
+            </div>
+
+              <div class="bg-[#F5F5F5]">
+              <img src="images/Davidoo.png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Davido</p>
+            </div>
+
+              <div class="bg-[#F5F5F5]">
+              <img src="images/Gunna.png" alt="" class="w-full">
+              <p class="p-3 text-base font-semibold">Gunna</p>
+            </div>
+          </div>
+          
+            <div class="flex justify-center mt-10">
+            <div
+              class="flex gap-3 items-center justify-center bg-[#F44C1C] py-3 px-6 rounded-md"
+            >
+            <img src="images/upload.png" alt="" />
+              <p><a href="" class="font-medium text-base text-white">Upload your song</a></p>
+              
+            </div>
+          </div>
+      </section>
+
+      <!----------------------------------------------- PLAYLIST SECTION --------------------------------------------------------->
+      <section class="mb-24">
+          <h2 class="font-bold text-2xl mb-6">Playlist</h2>
+          <div class="grid grid-cols-2 lg:grid-cols-6 gap-6">
+            <div class="bg-[#F5F5F5]">
+              <img src="images/playlist1.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Top 100</p>
+              <p class="font-normal">100 Songs</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+
+                <div class="bg-[#F5F5F5]">
+              <img src="images/playlist2.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Top Artist</p>
+              <p class="font-normal">100 artist</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+
+                <div class="bg-[#F5F5F5]">
+              <img src="images/playlist3.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Top Albums</p>
+              <p class="font-normal">100 albums</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+
+                        <div class="bg-[#F5F5F5]">
+              <img src="images/playlsit4.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Cool Vibes</p>
+              <p class="font-normal">50 Songs</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+
+                        <div class="bg-[#F5F5F5]">
+              <img src="images/playlist5.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Work Mode</p>
+              <p class="font-normal">50 Songs</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+
+                        <div class="bg-[#F5F5F5]">
+              <img src="images/playlist6.png" alt="" class="w-full">
+              <div class="p-3">
+              <p class="font-medium">Afrobeats</p>
+              <p class="font-normal">50 Songs</p>
+              <p class="font-semibold">JamBaze</p>
+            </div>
+            </div>
+          </div>
+
+              <div class="flex justify-center mt-12">
+            <div
+              class="flex gap-2 items-center border border-gray-300 py-3 px-6 rounded-md"
+            >
+              <p><a href="" class="font-medium text-base">View all playlist</a></p>
+              <img src="images/arrow-right.png" alt="" />
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer class="bg-black py-20 px-6 lg:px-24">
+      <section class="container mx-auto py-6 px-4 max-w-7xl text-white grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div>
+          <div>
+            <div class="flex items-center"><img src="images/logo.png" alt=""><span class="font-medium text-2xl">JamBaze</span></div>
+            <p class=" text-sm lg:text-lg mt-1">Entertainment at your convenience</p>
+          </div>
+              <div class=" flex items-center gap-5 mt-8">
+              <div><img src="images/prime_twitter.png" alt=""></div>
+             <div> <img src="images/instagram.png" alt=""></div>
+              <div><img src="images/facebook.png" alt=""></div>
+               <div><img src="images/youtube.png" alt=""></div>
+            </div>
+            <p class="text-sm mt-16">Copyright © 2024 JamBaze. All Rights Reserved</p>
+        </div>
+        <div class=" flex flex-col lg:flex-row gap-9 justify-end">
+          <div>
+            <h2 class="font-medium text-lg mb-5"> Information</h2>
+            <ul class="flex flex-col gap-4">
+              <li class="text-[#EBEBEB] text-sm"><a href="" ></a>About us</li>
+               <li class="text-[#EBEBEB] text-sm"><a href="" ></a>Advertise on JamBaze</li>
+               <li class="text-[#EBEBEB] text-sm"><a href="" ></a>Upload Music/Video</li>
+                <li class="text-[#EBEBEB] text-sm"><a href=""></a>Submit Posts</li>
+                <li class="text-[#F44C1C] text-sm"><a href=""></a>CONTACT US</li>
+            </ul>
+          </div>
+          <div >
+            <h2 class="font-medium text-lg mb-5"> Helpful Links</h2>
+                        <ul class="flex flex-col gap-4">
+              <li class="text-[#EBEBEB] text-sm"><a href="" ></a>JamBaze Music Promo Packages</li>
+               <li class="text-[#EBEBEB] text-sm"><a href="" ></a>JamBaze TV</li>
+               <li class="text-[#EBEBEB] text-sm"><a href="" ></a>Terms & Conditions</li>
+                <li class="text-[#EBEBEB] text-sm"><a href=""></a>Privacy Policy</li>
+                <li class="text-[#F44C1C] text-sm"><a href=""></a>CONTACT US</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+  </body>
+</html>
